@@ -1,0 +1,4 @@
+Altex
+Andrei | 120 | 20 | 2400
+Maria | 100 | 30 | 3000
+Valoare totala salarii: 5400
