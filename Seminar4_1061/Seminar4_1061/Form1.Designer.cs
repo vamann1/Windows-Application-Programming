@@ -46,34 +46,34 @@
             // 
             // tbNume
             // 
-            this.tbNume.Location = new System.Drawing.Point(33, 210);
-            this.tbNume.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.tbNume.Location = new System.Drawing.Point(40, 252);
+            this.tbNume.Margin = new System.Windows.Forms.Padding(5, 6, 5, 6);
             this.tbNume.Name = "tbNume";
-            this.tbNume.Size = new System.Drawing.Size(199, 26);
+            this.tbNume.Size = new System.Drawing.Size(242, 29);
             this.tbNume.TabIndex = 0;
             // 
             // tbFacultate
             // 
-            this.tbFacultate.Location = new System.Drawing.Point(33, 279);
-            this.tbFacultate.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.tbFacultate.Location = new System.Drawing.Point(40, 335);
+            this.tbFacultate.Margin = new System.Windows.Forms.Padding(5, 6, 5, 6);
             this.tbFacultate.Name = "tbFacultate";
-            this.tbFacultate.Size = new System.Drawing.Size(199, 26);
+            this.tbFacultate.Size = new System.Drawing.Size(242, 29);
             this.tbFacultate.TabIndex = 1;
             // 
             // tbNote
             // 
-            this.tbNote.Location = new System.Drawing.Point(33, 350);
-            this.tbNote.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.tbNote.Location = new System.Drawing.Point(40, 420);
+            this.tbNote.Margin = new System.Windows.Forms.Padding(5, 6, 5, 6);
             this.tbNote.Name = "tbNote";
-            this.tbNote.Size = new System.Drawing.Size(199, 26);
+            this.tbNote.Size = new System.Drawing.Size(242, 29);
             this.tbNote.TabIndex = 2;
             // 
             // btnAdauga
             // 
-            this.btnAdauga.Location = new System.Drawing.Point(33, 424);
-            this.btnAdauga.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.btnAdauga.Location = new System.Drawing.Point(40, 509);
+            this.btnAdauga.Margin = new System.Windows.Forms.Padding(5, 6, 5, 6);
             this.btnAdauga.Name = "btnAdauga";
-            this.btnAdauga.Size = new System.Drawing.Size(201, 45);
+            this.btnAdauga.Size = new System.Drawing.Size(246, 54);
             this.btnAdauga.TabIndex = 3;
             this.btnAdauga.Text = "Adaugaaaaa";
             this.btnAdauga.UseVisualStyleBackColor = true;
@@ -81,19 +81,19 @@
             // 
             // tbStud
             // 
-            this.tbStud.Location = new System.Drawing.Point(294, 208);
-            this.tbStud.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.tbStud.Location = new System.Drawing.Point(359, 250);
+            this.tbStud.Margin = new System.Windows.Forms.Padding(5, 6, 5, 6);
             this.tbStud.Multiline = true;
             this.tbStud.Name = "tbStud";
-            this.tbStud.Size = new System.Drawing.Size(298, 170);
+            this.tbStud.Size = new System.Drawing.Size(363, 203);
             this.tbStud.TabIndex = 4;
             // 
             // btnAfiseazaStud
             // 
-            this.btnAfiseazaStud.Location = new System.Drawing.Point(294, 424);
-            this.btnAfiseazaStud.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.btnAfiseazaStud.Location = new System.Drawing.Point(359, 509);
+            this.btnAfiseazaStud.Margin = new System.Windows.Forms.Padding(5, 6, 5, 6);
             this.btnAfiseazaStud.Name = "btnAfiseazaStud";
-            this.btnAfiseazaStud.Size = new System.Drawing.Size(300, 45);
+            this.btnAfiseazaStud.Size = new System.Drawing.Size(367, 54);
             this.btnAfiseazaStud.TabIndex = 5;
             this.btnAfiseazaStud.Text = "Afiseazaaa stud";
             this.btnAfiseazaStud.UseVisualStyleBackColor = true;
@@ -107,9 +107,10 @@
             this.columnHeader3});
             this.listView1.GridLines = true;
             this.listView1.HideSelection = false;
-            this.listView1.Location = new System.Drawing.Point(628, 208);
+            this.listView1.Location = new System.Drawing.Point(770, 250);
+            this.listView1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.listView1.Name = "listView1";
-            this.listView1.Size = new System.Drawing.Size(422, 259);
+            this.listView1.Size = new System.Drawing.Size(515, 310);
             this.listView1.TabIndex = 6;
             this.listView1.UseCompatibleStateImageBehavior = false;
             this.listView1.View = System.Windows.Forms.View.Details;
@@ -131,9 +132,10 @@
             // 
             // btnAfiseazaStudLV
             // 
-            this.btnAfiseazaStudLV.Location = new System.Drawing.Point(696, 496);
+            this.btnAfiseazaStudLV.Location = new System.Drawing.Point(851, 595);
+            this.btnAfiseazaStudLV.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnAfiseazaStudLV.Name = "btnAfiseazaStudLV";
-            this.btnAfiseazaStudLV.Size = new System.Drawing.Size(325, 51);
+            this.btnAfiseazaStudLV.Size = new System.Drawing.Size(397, 61);
             this.btnAfiseazaStudLV.TabIndex = 7;
             this.btnAfiseazaStudLV.Text = "Afiseaza Stud  LV";
             this.btnAfiseazaStudLV.UseVisualStyleBackColor = true;
@@ -147,7 +149,8 @@
             this.fileToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(1062, 33);
+            this.menuStrip1.Padding = new System.Windows.Forms.Padding(7, 2, 0, 2);
+            this.menuStrip1.Size = new System.Drawing.Size(1298, 38);
             this.menuStrip1.TabIndex = 8;
             this.menuStrip1.Text = "menuStrip1";
             // 
@@ -156,7 +159,7 @@
             this.fileToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.txtToolStripMenuItem});
             this.fileToolStripMenuItem.Name = "fileToolStripMenuItem";
-            this.fileToolStripMenuItem.Size = new System.Drawing.Size(54, 29);
+            this.fileToolStripMenuItem.Size = new System.Drawing.Size(62, 34);
             this.fileToolStripMenuItem.Text = "File";
             // 
             // txtToolStripMenuItem
@@ -165,20 +168,20 @@
             this.saveToolStripMenuItem,
             this.openToolStripMenuItem});
             this.txtToolStripMenuItem.Name = "txtToolStripMenuItem";
-            this.txtToolStripMenuItem.Size = new System.Drawing.Size(270, 34);
+            this.txtToolStripMenuItem.Size = new System.Drawing.Size(157, 40);
             this.txtToolStripMenuItem.Text = "Txt";
             // 
             // saveToolStripMenuItem
             // 
             this.saveToolStripMenuItem.Name = "saveToolStripMenuItem";
-            this.saveToolStripMenuItem.Size = new System.Drawing.Size(270, 34);
+            this.saveToolStripMenuItem.Size = new System.Drawing.Size(182, 40);
             this.saveToolStripMenuItem.Text = "Save";
             this.saveToolStripMenuItem.Click += new System.EventHandler(this.saveToolStripMenuItem_Click);
             // 
             // openToolStripMenuItem
             // 
             this.openToolStripMenuItem.Name = "openToolStripMenuItem";
-            this.openToolStripMenuItem.Size = new System.Drawing.Size(270, 34);
+            this.openToolStripMenuItem.Size = new System.Drawing.Size(182, 40);
             this.openToolStripMenuItem.Text = "Open";
             this.openToolStripMenuItem.Click += new System.EventHandler(this.openToolStripMenuItem_Click);
             // 
@@ -188,9 +191,9 @@
             // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(11F, 24F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1062, 703);
+            this.ClientSize = new System.Drawing.Size(1298, 844);
             this.Controls.Add(this.btnAfiseazaStudLV);
             this.Controls.Add(this.listView1);
             this.Controls.Add(this.btnAfiseazaStud);
@@ -201,7 +204,7 @@
             this.Controls.Add(this.tbNume);
             this.Controls.Add(this.menuStrip1);
             this.MainMenuStrip = this.menuStrip1;
-            this.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.Margin = new System.Windows.Forms.Padding(5, 6, 5, 6);
             this.Name = "Form1";
             this.Text = " ";
             this.Load += new System.EventHandler(this.Form1_Load);

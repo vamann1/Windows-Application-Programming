@@ -23,17 +23,23 @@ namespace Bar_gr
         {
             if (gv.Rows.Count > 3)
             {
-                lv = new List<int>();
-                foreach (DataGridViewRow rd in gv.Rows)
-                {
-                    if (rd.Cells[0].Value != null)
-                        lv.Add(int.Parse(rd.Cells[0].Value.ToString()));
-                }
+                //lv = new List<int>();
+                //foreach (DataGridViewRow rd in gv.Rows)
+                //{
+                //    if (rd.Cells[0].Value != null)
+                //        lv.Add(int.Parse(rd.Cells[0].Value.ToString()));
+                //}
+                
+                lv = gv.Rows.Cast<DataGridViewRow>().Where(rd => rd.Cells[0].Value!=null).Select(rd => int.Parse(rd.Cells[0].Value.ToString())).ToList<int>();
+
             }
             else lv = null;
             gr.Valori = lv;
-            
+        }
 
+        private void gv_RowsRemoved(object sender, DataGridViewRowsRemovedEventArgs e)
+        {
+            gv_CellValueChanged(sender, null);
         }
     }
 }

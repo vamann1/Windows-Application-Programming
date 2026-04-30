@@ -57,44 +57,50 @@
             this.Observatie});
             this.lv.GridLines = true;
             this.lv.HideSelection = false;
-            this.lv.Location = new System.Drawing.Point(36, 98);
+            this.lv.Location = new System.Drawing.Point(15, 29);
+            this.lv.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
             this.lv.Name = "lv";
-            this.lv.Size = new System.Drawing.Size(484, 430);
+            this.lv.Size = new System.Drawing.Size(439, 376);
             this.lv.TabIndex = 0;
             this.lv.UseCompatibleStateImageBehavior = false;
             this.lv.View = System.Windows.Forms.View.Details;
             this.lv.ItemChecked += new System.Windows.Forms.ItemCheckedEventHandler(this.lv_ItemChecked);
-            this.lv.SelectedIndexChanged += new System.EventHandler(this.lv_SelectedIndexChanged);
             // 
             // Matricol
             // 
             this.Matricol.Text = "Matricol";
+            this.Matricol.Width = 109;
             // 
             // Nume
             // 
             this.Nume.Text = "Nume";
+            this.Nume.Width = 73;
             // 
             // Medie
             // 
             this.Medie.Text = "Medie";
+            this.Medie.Width = 113;
             // 
             // Observatie
             // 
             this.Observatie.Text = "Observatie";
+            this.Observatie.Width = 121;
             // 
             // tv
             // 
-            this.tv.Location = new System.Drawing.Point(547, 98);
+            this.tv.Location = new System.Drawing.Point(689, 29);
+            this.tv.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
             this.tv.Name = "tv";
-            this.tv.Size = new System.Drawing.Size(438, 440);
+            this.tv.Size = new System.Drawing.Size(347, 376);
             this.tv.TabIndex = 1;
             this.tv.AfterSelect += new System.Windows.Forms.TreeViewEventHandler(this.tv_AfterSelect);
             // 
             // btnPopulareLv
             // 
-            this.btnPopulareLv.Location = new System.Drawing.Point(36, 588);
+            this.btnPopulareLv.Location = new System.Drawing.Point(15, 426);
+            this.btnPopulareLv.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
             this.btnPopulareLv.Name = "btnPopulareLv";
-            this.btnPopulareLv.Size = new System.Drawing.Size(167, 71);
+            this.btnPopulareLv.Size = new System.Drawing.Size(306, 131);
             this.btnPopulareLv.TabIndex = 2;
             this.btnPopulareLv.Text = "Populeaza LV";
             this.btnPopulareLv.UseVisualStyleBackColor = true;
@@ -102,9 +108,10 @@
             // 
             // btnStergeElement
             // 
-            this.btnStergeElement.Location = new System.Drawing.Point(389, 583);
+            this.btnStergeElement.Location = new System.Drawing.Point(392, 426);
+            this.btnStergeElement.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
             this.btnStergeElement.Name = "btnStergeElement";
-            this.btnStergeElement.Size = new System.Drawing.Size(131, 75);
+            this.btnStergeElement.Size = new System.Drawing.Size(240, 138);
             this.btnStergeElement.TabIndex = 3;
             this.btnStergeElement.Text = "button1";
             this.btnStergeElement.UseVisualStyleBackColor = true;
@@ -112,9 +119,10 @@
             // 
             // btnPopulareTv
             // 
-            this.btnPopulareTv.Location = new System.Drawing.Point(571, 592);
+            this.btnPopulareTv.Location = new System.Drawing.Point(689, 426);
+            this.btnPopulareTv.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
             this.btnPopulareTv.Name = "btnPopulareTv";
-            this.btnPopulareTv.Size = new System.Drawing.Size(171, 66);
+            this.btnPopulareTv.Size = new System.Drawing.Size(314, 122);
             this.btnPopulareTv.TabIndex = 4;
             this.btnPopulareTv.Text = "Populeaza TV";
             this.btnPopulareTv.UseVisualStyleBackColor = true;
@@ -122,11 +130,12 @@
             // 
             // tbStudenti
             // 
-            this.tbStudenti.Location = new System.Drawing.Point(1006, 108);
+            this.tbStudenti.Location = new System.Drawing.Point(1844, 199);
+            this.tbStudenti.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
             this.tbStudenti.Multiline = true;
             this.tbStudenti.Name = "tbStudenti";
             this.tbStudenti.ReadOnly = true;
-            this.tbStudenti.Size = new System.Drawing.Size(249, 430);
+            this.tbStudenti.Size = new System.Drawing.Size(453, 790);
             this.tbStudenti.TabIndex = 5;
             // 
             // contextMenuStrip1
@@ -135,13 +144,12 @@
             this.contextMenuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.toolStripMenuItem1});
             this.contextMenuStrip1.Name = "contextMenuStrip1";
-            this.contextMenuStrip1.Size = new System.Drawing.Size(254, 40);
-            this.contextMenuStrip1.Opening += new System.ComponentModel.CancelEventHandler(this.contextMenuStrip1_Opening);
+            this.contextMenuStrip1.Size = new System.Drawing.Size(271, 78);
             // 
             // toolStripMenuItem1
             // 
             this.toolStripMenuItem1.Name = "toolStripMenuItem1";
-            this.toolStripMenuItem1.Size = new System.Drawing.Size(270, 36);
+            this.toolStripMenuItem1.Size = new System.Drawing.Size(253, 36);
             this.toolStripMenuItem1.Text = "Sterge Element LV";
             this.toolStripMenuItem1.Click += new System.EventHandler(this.toolStripMenuItem1_Click);
             // 
@@ -151,7 +159,7 @@
             this.contextMenuStrip2.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.toolStripMenuItem2});
             this.contextMenuStrip2.Name = "contextMenuStrip2";
-            this.contextMenuStrip2.Size = new System.Drawing.Size(271, 78);
+            this.contextMenuStrip2.Size = new System.Drawing.Size(256, 40);
             this.contextMenuStrip2.Opening += new System.ComponentModel.CancelEventHandler(this.contextMenuStrip2_Opening);
             // 
             // toolStripMenuItem2
@@ -162,15 +170,16 @@
             // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(11F, 24F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1299, 840);
+            this.ClientSize = new System.Drawing.Size(1355, 600);
             this.Controls.Add(this.tbStudenti);
             this.Controls.Add(this.btnPopulareTv);
             this.Controls.Add(this.btnStergeElement);
             this.Controls.Add(this.btnPopulareLv);
             this.Controls.Add(this.tv);
             this.Controls.Add(this.lv);
+            this.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
             this.Name = "Form1";
             this.Text = "Form1";
             this.contextMenuStrip1.ResumeLayout(false);

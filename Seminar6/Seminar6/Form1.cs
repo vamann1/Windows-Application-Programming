@@ -62,14 +62,7 @@ namespace Seminar6
                     item.SubItems.Add("Bun");
                 }
                 lv.Items.Add(item);
-
             }
-
-        }
-
-        private void contextMenuStrip1_Opening(object sender, CancelEventArgs e)
-        {
-
         }
 
         private void btnStergeElement_Click(object sender, EventArgs e)
@@ -92,13 +85,6 @@ namespace Seminar6
                     item.Remove();
                 }
             }
-        }
-
-
-
-        private void lv_SelectedIndexChanged(object sender, EventArgs e)
-        {
-
         }
 
         private void lv_ItemChecked(object sender, ItemCheckedEventArgs e)
@@ -158,13 +144,11 @@ namespace Seminar6
             {
                 nodSelectat = tv.SelectedNode.NextNode;
             }
-            else
+            else if (nodSelectat.PrevNode != null)
             {
-                if (nodSelectat.PrevNode != null)
-                {
-                    nodSelectat = tv.SelectedNode.PrevNode;
-                }
+                nodSelectat = tv.SelectedNode.PrevNode;
             }
+            
             tv.SelectedNode.Remove();
             tv.SelectedNode = nodSelectat;
         }

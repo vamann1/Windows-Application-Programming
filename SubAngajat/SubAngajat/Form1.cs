@@ -86,15 +86,16 @@ namespace SubAngajat
 
         private void salveazaFisierToolStripMenuItem1_Click(object sender, EventArgs e)
         {
+            
             SaveFileDialog sfd = new SaveFileDialog();
             sfd.FileName = "firma.txt";
-            sfd.Filter = "Text files|*.txt";
+            sfd.Filter = "(*.txt) | *.txt";
             if (sfd.ShowDialog() == DialogResult.OK)
             {
                 try
                 {
                     StreamWriter sw = new StreamWriter(sfd.FileName);
-                    sw.WriteLine(textBox1.Text);  // sau dintr-un TextBox dacă ai
+                    sw.WriteLine(textBox1.Text);  
                     float totalSalarii = 0;
                     for (int i = 0; i < listaAngajati.Count; i++)
                     {
@@ -120,7 +121,7 @@ namespace SubAngajat
         private void citesteFisierToolStripMenuItem_Click(object sender, EventArgs e)
         {
             OpenFileDialog ofd = new OpenFileDialog();
-            ofd.Filter = "Text files|*.txt";
+            ofd.Filter = "(*.txt) | *.txt";
 
             if (ofd.ShowDialog() == DialogResult.OK)
             {

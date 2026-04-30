@@ -5,7 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 
 namespace Seminar2_1061 {
-    internal abstract class CalculeazaAnNastere {
+    internal abstract class CalculeazaAnNastere { 
         public abstract int AflaAnNastere();
 
         public void Afiseaza() {

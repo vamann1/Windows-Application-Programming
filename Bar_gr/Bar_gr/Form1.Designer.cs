@@ -71,6 +71,7 @@
             this.gv.Size = new System.Drawing.Size(168, 188);
             this.gv.TabIndex = 1;
             this.gv.CellValueChanged += new System.Windows.Forms.DataGridViewCellEventHandler(this.gv_CellValueChanged);
+            this.gv.RowsRemoved += new System.Windows.Forms.DataGridViewRowsRemovedEventHandler(this.gv_RowsRemoved);
             // 
             // Valori
             // 
@@ -87,6 +88,7 @@
             this.gr.Size = new System.Drawing.Size(781, 588);
             this.gr.TabIndex = 0;
             this.gr.Text = "grafic1";
+            this.gr.Valori = null;
             // 
             // Form1
             // 

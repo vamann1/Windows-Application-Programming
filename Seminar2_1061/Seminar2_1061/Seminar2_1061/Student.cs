@@ -105,7 +105,7 @@ namespace Seminar2_1061 {
                 return this.materii[index];
             }
             set {
-                this.materii[index] = value;
+                this.materii[index] = value; 
             }
         }
     }
