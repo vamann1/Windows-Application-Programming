@@ -31,6 +31,7 @@ namespace Bar_gr
                 //}
                 
                 lv = gv.Rows.Cast<DataGridViewRow>().Where(rd => rd.Cells[0].Value!=null).Select(rd => int.Parse(rd.Cells[0].Value.ToString())).ToList<int>();
+                //ca ex, de bagat un splitter container pe orizontalin panoul din stanga, iar in partea de jos un radio button pt a selecta tipul de grafic si a modifica graficul din panooul din dreapta
 
             }
             else lv = null;
