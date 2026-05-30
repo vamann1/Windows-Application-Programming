@@ -1,0 +1,3 @@
+﻿SELECT * FROM dbo.Vanzari;
+
+DELETE FROM DBO.VANZARI;
