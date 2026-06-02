@@ -36,7 +36,8 @@ namespace legare
 
         private void toolStripButton1_Click(object sender, EventArgs e)
         {
-            if(!fmd.Visible)fmd.Show();
+            if(!fmd.Visible)
+                fmd.Show();
         }
     }
 }
